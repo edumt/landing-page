@@ -1,0 +1,7 @@
+@media (max-width: 750px) {
+  #nav-bar {
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+  }
+}
