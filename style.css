@@ -48,15 +48,18 @@ header {
   font-size: 1.7rem;
 }
 
-#form input,
+#form #email,
 button {
   height: 30px;
   margin-top: 12px;
 }
 
-#form input {
+#form #email {
   width: 275px;
   padding-left: 5px;
+}
+#form #submit {
+  font-weight: 800;
 }
 
 #service-details {
