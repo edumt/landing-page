@@ -140,9 +140,20 @@ button {
 }
 #footer {
   background-color: #ddd;
-  padding: 30px;
+  padding: 20px;
   max-width: 950px;
   margin: 0 auto;
   text-align: right;
   font-size: 1.5rem;
+}
+.footer-links {
+  font-size: 1.6rem;
+  margin-bottom: 4px;
+}
+.footer-links a {
+  margin-left: 18px;
+}
+#copyright {
+  color: #666;
+  font-size: 1.4rem;
 }
