@@ -6,14 +6,24 @@
   }
   #header-img {
     max-width: 580px;
+    margin-bottom: 10px;
   }
   #nav-bar {
     flex-direction: column;
     text-align: center;
     margin: auto;
   }
+  .nav-link {
+    margin: 3px;
+  }
   #form {
-    padding-top: 164px;
+    padding-top: 167px;
+  }
+  .detail-icon {
+    display: none;
+  }
+  .service-details {
+    text-align: center;
   }
 }
 
@@ -23,8 +33,11 @@
     text-align: center;
     margin: auto;
   }
+  .nav-link {
+    margin: 2px;
+  }
   #form {
-    padding-top: 103px;
+    padding-top: 115px;
   }
 }
 
