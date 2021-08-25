@@ -10,7 +10,9 @@ html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
+a {
+  color: black;
+  text-decoration: none;
 }
 
 header {
@@ -32,12 +34,10 @@ header {
   font-size: 1.8rem;
   flex: 0.5;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .nav-link {
-  color: black;
-  text-decoration: none;
   margin: auto 15px;
   white-space: nowrap;
 }
@@ -59,29 +59,80 @@ button {
   padding-left: 5px;
 }
 
-#form button {
-  width: 150px;
-  font-size: 1.7rem;
-  font-weight: 800;
-  background-color: #ffcd58;
-  border: none;
-  cursor: pointer;
+#service-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-#form button:hover {
-  transition: 0.75s;
-  background-color: orange;
+
+.service-details {
+  width: 80%; /*temporary*/
+  display: flex;
+  margin: 25px 0;
+}
+.detail-icon {
+  color: orange;
+  padding: 0 25px;
+  font-size: 100%;
 }
 
 #video {
   display: block;
+  width: 100%;
+  max-width: 550px;
   margin: 50px auto;
 }
 
 #product-options {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
 }
-
+.product {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px black solid;
+  width: 80%;
+  max-width: 300px;
+}
+.product-name {
+  background-color: #ddd;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 12px 0;
+}
+.product-price {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 12px 0;
+}
+.product-description {
+  font-size: 1.5rem;
+  line-height: 25px;
+}
+.product-btn {
+  margin: 25px 0 15px 0;
+  padding: 10px 20px;
+  line-height: 10px;
+  background-color: #ffcd58;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.product-btn:hover {
+  transition: 0.75s;
+  background-color: orange;
+}
 #footer {
+  background-color: #ddd;
+  padding: 30px;
+  max-width: 950px;
+  margin: 0 auto;
   text-align: right;
   font-size: 1.5rem;
 }
